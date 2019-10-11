@@ -13,7 +13,7 @@ const [strikes, strikeUpdate] = useState(0)
   return (
     <div className="App">
       <Display balls={balls} strikes={strikes}/>
-      <Dashboard ballUpdate={ballUpdate} strikeUpdate={strikeUpdate}/>
+      <Dashboard balls={balls} strikes={strikes} ballUpdate={ballUpdate} strikeUpdate={strikeUpdate}/>
     </div>
   );
 }
