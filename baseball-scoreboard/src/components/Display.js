@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Display = ({balls, strikes}) => {
+const Display = ({balls, strikes, outs}) => {
 
-    console.log(balls)
+    
 
 
 
@@ -22,6 +22,14 @@ const Display = ({balls, strikes}) => {
             </div>
             <div>
                 {strikes}
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>Outs</h2>
+            </div>
+            <div>
+                {outs}
             </div>
         </div>
         </>
